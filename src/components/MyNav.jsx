@@ -16,10 +16,10 @@ const MyNav = () => {
   return (
     <>
       <>
-        <Nav className="py-3 px-3">
+        <Nav className="pt-3 px-3">
           <div className=" container-fluid d-flex justify-content-between align-items-center">
             <div className="logo c_pointer">
-              <img src={navlogo} alt="logo" />
+              <img src={navlogo} alt="logo" className="w-75 w_lg_100"/>
             </div>
             <ul className="d-lg-flex gap-4 mb-0 d-none d-block align-items-center list-unstyled">
               <li>
@@ -36,7 +36,7 @@ const MyNav = () => {
               </li>
             </ul>
             <span className="d-none d-lg-inline-block">
-              <button className="nav_btn">
+              <button className="nav_btn rounded-5">
                 <a href="youtube.com">Explore the ecosystem</a>
               </button>
             </span>

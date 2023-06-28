@@ -27,9 +27,10 @@
   --thick-white: #rgb(255, 255, 255);
   --color-darkgreen: #111b24;
   /*==============================================bg-color ===========================================*/
-    --bg-lightgreen:#rgb(0, 234, 199);
-    --bg-darkgreen: #111b24;
-    /*============================================= border-color ====================================== */
+  --bg-lightgreen: #00ccab;
+  --bg-darkgreen: #111b24;
+  --bg-lightergreen: #0f3034;
+  /*============================================= border-color ====================================== */
   --border-color: #1b2b3b;
 }
 .fs_5xl {
@@ -90,7 +91,7 @@
   color: var(--lightgreen-color);
 }
 .color_lightsky {
-  color:var(--lightsky-color);
+  color: var(--lightsky-color);
 }
 .color_white {
   color: var(--white-color);
@@ -107,6 +108,7 @@
 .bg_darkgreen {
   background-color: var(--bg-darkgreen);
 }
+
 .border_color {
   border-color: var(--border-color);
 }
