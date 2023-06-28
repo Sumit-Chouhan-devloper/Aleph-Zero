@@ -1,0 +1,7 @@
+/*---------------------------------- footer------------------------------------ */
+
+.green_line {
+  min-width: 2px;
+  min-height: 23.53px;
+  background-color: var(--bg_lightgreen);
+}
