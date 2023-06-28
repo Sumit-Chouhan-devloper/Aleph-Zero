@@ -20,6 +20,7 @@
   --fs-smx: 13px;
   --fs-smx2: 13.08px;
   --fs-smx3: 12.96px;
+  --fs-smx4:10.4px;
   /*========================================= color =======================*/
   --lightgreen-color: #00ccab;
   --lightsky-color: #bccbd6;
@@ -87,6 +88,7 @@
 .fs_smx3 {
   font-size: var(--fs-smx3);
 }
+.fs_smx4{font-size: var(--fs-smx4);}
 .color_lightgreen {
   color: var(--lightgreen-color);
 }

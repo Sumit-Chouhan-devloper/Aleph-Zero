@@ -36,7 +36,7 @@ const MyNav = () => {
               </li>
             </ul>
             <span className="d-none d-lg-inline-block">
-              <button className="nav_btn rounded-5">
+              <button className="nav_btn rounded-5 bg_lightgreen border-0 ff_inter">
                 <a href="youtube.com">Explore the ecosystem</a>
               </button>
             </span>
@@ -68,7 +68,7 @@ const MyNav = () => {
               </li>
 
               <span>
-                <button className="nav_btn">
+                <button className="nav_btn nav_btn rounded-5 bg_lightgreen border-0 ff_inter">
                   <a href="youtube.com">Explore the ecosystem</a>
                 </button>
               </span>
