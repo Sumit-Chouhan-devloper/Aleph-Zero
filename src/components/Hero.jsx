@@ -7,25 +7,25 @@ import hero_a from "../assets/images/png/hero_a.png";
 const Hero = () => {
   return (
     <>
-      <header className="hero_bg bg_darkgreen">
+      <header className="hero_bg bg_darkgreen d-flex flex-column vh_xl_100">
         <MyNav />
-        <section className=" hero_s">
-          <div className="container h-100">
-            <Row className="align-items-center h-100">
-              <div className="col-6">
-                <h2 className="fs_5xl ff_intel fw-bold color_white">
+        <section className=" hero_s flex-grow-1 py-5 py-lg-0 my-lg-5 my-xl-0">
+          <div className="container h-100 py-lg-5 py-xl-0">
+            <Row className="align-items-center h-100 flex-column-reverse flex-lg-row">
+              <div className="col-lg-6 ">
+                <h2 className="fs_5xl ff_inter fw-bold color_white mb-0">
                   Zero-knowledge
                 </h2>
-                <h2 className="color_white ff_intel fw-light"><span className="hero_line position-relative">sca</span>lable layer 1</h2>
-                <p className="color_lightsky ff_karla fw-light fs_md hero_para pt-5 pb-4">
+                <h2 className="color_white ff_inter fw-light mb-0"><span className="hero_line position-relative">sca</span>lable layer 1</h2>
+                <p className="color_lightsky ff_karla fw-light fs_md hero_para pt-5 pb-4 mb-0">
                   Aleph Zero is a layer 1 privacy-enhancing blockchain that
                   ensures scalability, low transaction fees, instant finality,
                   and optimal security.
                 </p>
-                <button><span><img src={btn_img} alt="btn_img" /></span> Start exploring</button>
+                <button className="hero_btn rounded-5 border-0 bg_lightergreen color_lightgreen"><span className="pe-2"><img src={btn_img} alt="btn_img" /></span> Start exploring</button>
               </div>
-              <div className="col-6">
-                <img src={hero_a} alt="hero_a" />
+              <div className="col-lg-6 ">
+                <img src={hero_a} alt="hero_a" className="w-100" />
               </div>
             </Row>
           </div>

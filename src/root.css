@@ -27,8 +27,9 @@
   --thick-white: #rgb(255, 255, 255);
   --color-darkgreen: #111b24;
   /*==============================================bg-color ===========================================*/
-    --bg_lightgreen: #rgb(0, 234, 199);
+    --bg-lightgreen: #00ccab;
     --bg-darkgreen: #111b24;
+    --bg-lightergreen:#0F3034;
     /*============================================= border-color ====================================== */
   --border-color: #1b2b3b;
 }
@@ -102,15 +103,16 @@
   color: var(--color-darkgreen);
 }
 .bg_lightgreen {
-  background-color: var(--bg_lightgreen);
+  background-color: var(--bg-lightgreen);
 }
 .bg_darkgreen {
   background-color: var(--bg-darkgreen);
 }
+.bg_lightergreen{background: var(--bg-lightergreen);}
 .border_color {
   border-color: var(--border-color);
 }
-.ff_intel {
+.ff_inter {
   font-family: "inter";
 }
 .ff_karla {
