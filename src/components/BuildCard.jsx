@@ -7,7 +7,7 @@ const BuildCard = () => {
   return (
     <>
       <section className="bg_darkgreen mt_-2 py-5 build_s">
-        <Container>
+        <Container className="py-5">
           <Row>
             <div className="col-md-6">
               <div className="build_cards h-100">

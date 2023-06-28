@@ -12,8 +12,12 @@
 .mt_-2 {
   margin-top: -2px;
 }
-.ws_nowrap{white-space: nowrap;}
-
+.ws_nowrap {
+  white-space: nowrap;
+}
+.mw_280 {
+  max-width: 280px;
+}
 /* nav bar */
 .sm_nav {
   position: fixed;
@@ -129,10 +133,23 @@
   width: 2px;
   background-color: var(--bg-lightgreen);
 }
-.build_s .bottom_p_line{
-height: 2px; width: 25%;
-background-color: var(--bg-lightgreen);
-width: 80px;
+.build_s .bottom_p_line {
+  height: 2px;
+  width: 25%;
+  background-color: var(--bg-lightgreen);
+  width: 80px;
+}
+/* blockchain start */
+.blockchain_bg {
+  background-image: url(../src//assets/images/png/blockchain_bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100% 100%;
+}
+
+.blockchain_backdrop {
+  top: -20%;
+  z-index: 1 !important;
 }
 
 @media (min-width: 768px) {

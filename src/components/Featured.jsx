@@ -25,28 +25,24 @@ const Featured = () => {
               autoScroll: {
                 speed: 1,
               },
-              perPage:7,
-              gap:"4rem",
+              perPage: 7,
+              gap: "4rem",
               breakpoints: {
                 1200: {
                   perPage: 5,
                   gap: "3rem",
-                 
                 },
                 992: {
-                    perPage: 4,
-                    gap: "3rem",
-                   
-                  },
+                  perPage: 4,
+                  gap: "3rem",
+                },
                 768: {
-                    perPage: 3,
-                    gap: "3rem",
-                  
-                  },
-            480: {
+                  perPage: 3,
+                  gap: "3rem",
+                },
+                480: {
                   perPage: 2,
                   gap: "2rem",
-                
                 },
               },
             }}

@@ -20,7 +20,7 @@
   --fs-smx: 13px;
   --fs-smx2: 13.08px;
   --fs-smx3: 12.96px;
-  --fs-smx4:10.4px;
+  --fs-smx4: 10.4px;
   /*========================================= color =======================*/
   --lightgreen-color: #00ccab;
   --lightsky-color: #bccbd6;
@@ -28,10 +28,10 @@
   --thick-white: #rgb(255, 255, 255);
   --color-darkgreen: #111b24;
   /*==============================================bg-color ===========================================*/
-    --bg-lightgreen: #00ccab;
-    --bg-darkgreen: #111b24;
-    --bg-lightergreen:#0F3034;
-    /*============================================= border-color ====================================== */
+  --bg-lightgreen: #00ccab;
+  --bg-darkgreen: #111b24;
+  --bg-lightergreen: #0f3034;
+  /*============================================= border-color ====================================== */
   --border-color: #1b2b3b;
 }
 .fs_5xl {
@@ -88,12 +88,14 @@
 .fs_smx3 {
   font-size: var(--fs-smx3);
 }
-.fs_smx4{font-size: var(--fs-smx4);}
+.fs_smx4 {
+  font-size: var(--fs-smx4);
+}
 .color_lightgreen {
   color: var(--lightgreen-color);
 }
 .color_lightsky {
-  color:var(--lightsky-color);
+  color: var(--lightsky-color);
 }
 .color_white {
   color: var(--white-color);
@@ -110,13 +112,19 @@
 .bg_darkgreen {
   background-color: var(--bg-darkgreen);
 }
-.bg_lightergreen{background: var(--bg-lightergreen);}
+
 .border_color {
   border-color: var(--border-color);
+}
+.bg_lightergreen {
+  background-color: var(--bg-lightergreen);
 }
 .ff_inter {
   font-family: "inter";
 }
 .ff_karla {
   font-family: "karla";
+}
+.fs_11 {
+  font-size: 11.04px;
 }

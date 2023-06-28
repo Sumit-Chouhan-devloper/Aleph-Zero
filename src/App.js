@@ -1,6 +1,5 @@
-
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./root.css";
 import Hero from './components/Hero';
 import Featured from './components/Featured';
@@ -15,7 +14,7 @@ function App() {
    <BuildCard/>
    <BuildingBlockchain/>
    </>
-  );
-}
+
+);}
 
 export default App;
