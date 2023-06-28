@@ -27,7 +27,7 @@
   --thick-white: #rgb(255, 255, 255);
   --color-darkgreen: #111b24;
   /*==============================================bg-color ===========================================*/
-    --bg_lightgreen: #rgb(0, 234, 199);
+    --bg-lightgreen:#rgb(0, 234, 199);
     --bg-darkgreen: #111b24;
     /*============================================= border-color ====================================== */
   --border-color: #1b2b3b;
@@ -102,7 +102,7 @@
   color: var(--color-darkgreen);
 }
 .bg_lightgreen {
-  background-color: var(--bg_lightgreen);
+  background-color: var(--bg-lightgreen);
 }
 .bg_darkgreen {
   background-color: var(--bg-darkgreen);
