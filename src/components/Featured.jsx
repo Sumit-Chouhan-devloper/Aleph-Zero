@@ -12,7 +12,7 @@ import slide7 from "../assets/images/png/fe_slide7.png";
 const Featured = () => {
   return (
     <>
-      <section className="featured_bg pt-4 pb-5 mt_-2 featured_s">
+      <section className="featured_bg pt-4 pb-5 mt_-2 featured_s" id="startedeco">
         <Container className="pb-lg-5">
           <p className="ff_inter fw-light color_white text-center fs_smx4 pb-sm-4 pb-3">
             FEATURED IN
@@ -22,6 +22,7 @@ const Featured = () => {
               type: "loop",
               arrows: false,
               pagination: false,
+              pauseOnHover:true,
               autoScroll: {
                 speed: 1,
               },

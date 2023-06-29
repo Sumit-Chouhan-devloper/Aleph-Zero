@@ -7,7 +7,7 @@ const BuildCard = () => {
   return (
     <>
       <section className="bg_darkgreen mt_-2 py-5 build_s">
-        <Container className="py-5">
+        <Container className="py-lg-5">
           <Row>
             <div className="col-md-6">
               <div className="build_cards h-100">
@@ -15,7 +15,7 @@ const BuildCard = () => {
                   <img src={build_card} alt="card_img" className="w-100" />
                 </div>
                 <div className="ps-sm-5 ps-3 pe-2 pe-sm-0">
-                  <h4 className=" ff_inter fw-bold color_white fs_xlg mb-0 ps-4 green_line">
+                  <h4 className=" ff_inter fw-bold color_white fs_xlg mb-0 ps-4 green-line">
                     Build<span className="fw-light ps-2 fs_xxlg">fast</span>
                   </h4>
                   <p className="ff_karla fw-light fs_msm color_lightsky pt-3 mb-0">
@@ -24,8 +24,8 @@ const BuildCard = () => {
                     environment.
                   </p>
                 </div>
-                <div className="text-end pe-4 ff_inter fw-medium fs_xsm color_lightgreen py-4 my-2 c_pointer">
-                  Deploy apps <img src={arrow} alt="arrow" className="ms-1" />
+                <div className="text-end pe-4 ff_inter fw-medium fs_xsm color_lightgreen pt-sm-5 py-4 pt-xl-3 my-2">
+                  Deploy apps <img src={arrow} alt="arrow" className="ms-1 arrow_animation" />
                 </div>
               </div>
             </div>
@@ -35,7 +35,7 @@ const BuildCard = () => {
                   <img src={scale_card} alt="card_img" className="w-100" />
                 </div>
                 <div className="ps-sm-5 ps-3 pe-2 pe-sm-0">
-                  <h4 className=" ff_inter fw-bold color_white fs_xlg mb-0 ps-4 green_line">
+                  <h4 className=" ff_inter fw-bold color_white fs_xlg mb-0 ps-4 green-line">
                     Scale<span className="fw-light ps-2 fs_xxlg">easy</span>
                   </h4>
                   <p className="ff_karla fw-light fs_msm color_lightsky pt-3 mb-0">
@@ -44,14 +44,14 @@ const BuildCard = () => {
                     involved by becoming one yourself.
                   </p>
                 </div>
-                <div className="text-end pe-4 ff_inter fw-medium fs_xsm color_lightgreen py-4 my-2 c_pointer">
+                <div className="text-end pe-4 ff_inter fw-medium fs_xsm color_lightgreen py-4 my-2">
                   Validate and nominate
-                  <img src={arrow} alt="arrow" className="ms-1" />
+                  <img src={arrow} alt="arrow" className="ms-2 arrow_animation" />
                 </div>
               </div>
             </div>
           </Row>
-          <Row className="justify-content-between align-items-center py-5 my-xl-5">
+          <Row className="justify-content-between align-items-center pt-5 my-xl-5">
             <div className="col-lg-2  col-sm-6 d-flex justify-content-lg-start justify-content-center">
               <div className="d-flex flex-column align-items-center">
                 <h5 className="ff_inter fw-bold fs_lg color_white mb-0 pb-3">

@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap");
 :root {
   /* ============================================font-size================================ */
-  --fs-5xl: 40px;
-  --fs-4xl: 34px;
-  --fs-3xl: 33px;
-  --fs-2xl: 32px;
-  --fs-xl: 24px;
+  --fs-5xl: 30px;
+  --fs-4xl: 28px;
+  --fs-3xl: 26px;
+  --fs-2xl: 24px;
+  --fs-xl: 22px;
   --fs-xxlg: 23px;
   --fs-xlg: 22px;
   --fs-llg: 21.12px;
@@ -127,4 +127,30 @@
 }
 .fs_11 {
   font-size: 11.04px;
+}
+@media (min-width: 576px) {
+  :root {
+    --fs-5xl: 30px;
+    --fs-4xl: 28px;
+    --fs-3xl: 26px;
+    --fs-2xl: 24px;
+    --fs-xl: 22px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --fs-5xl: 35px;
+    --fs-4xl: 30px;
+    --fs-3xl: 28px;
+    --fs-2xl: 26px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs-5xl: 40px;
+    --fs-4xl: 34px;
+    --fs-3xl: 33px;
+    --fs-2xl: 32px;
+    --fs-xl: 24px;
+  }
 }
