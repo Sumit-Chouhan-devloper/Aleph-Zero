@@ -108,6 +108,9 @@
 .bg_darkgreen {
   background-color: var(--bg-darkgreen);
 }
+.bg_lightergreen {
+  background-color: var(--bg-lightergreen);
+}
 
 .border_color {
   border-color: var(--border-color);
@@ -118,4 +121,9 @@
 .ff_karla {
   font-family: "karla";
 }
-.fs_11{font-size: 11.04px;}
+.fs_11 {
+  font-size: 11.04px;
+}
+.fs_19 {
+  font-size: 19px;
+}
