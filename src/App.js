@@ -12,6 +12,10 @@ import Batman from "./components/Batman";
 import Applications from "./components/Applications";
 import PreLoader from "./components/PreLoader";
 import BackToTop from "./components/BackToTop";
+import Network from "./components/Network";
+import Drivingslider from "./components/Drivingslider"
+import Environment from "./components/Environment"
+import Azercards from "./components/Azercards"
 function App() {
   return (
     <>
@@ -22,7 +26,11 @@ function App() {
       <BuildCard />
       <BuildingBlockchain />
       <Applications />
+      <Network />
+      <Drivingslider />
+      <Environment />
       <Batman />
+      <Azercards />
       <Footer />
       <Footercard />
     </>
