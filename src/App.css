@@ -260,7 +260,7 @@ body {
 /*================================================ blockchain start ==================================*/
 .blockchain_bg {
   background-image: url(../src//assets/images/png/blockchain_bg.png);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat ;
   background-position: left;
   background-size: 100% 100%;
 }

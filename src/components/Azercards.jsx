@@ -8,7 +8,7 @@ import card3 from "../assets/images/png/azero_utility.png";
 const Azercards = () => {
   return (
     <>
-      <section className="bg_azerocards">
+      <section className="bg_azerocards mt_-2">
         <div className="container py-5 ">
           <div className="row py-5 my-3">
             <div className="col-md-4 col-sm-6 py-5">

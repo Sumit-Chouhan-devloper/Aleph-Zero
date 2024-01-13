@@ -7,6 +7,7 @@ import linked from "../assets/images/png/in.png";
 import smile from "../assets/images/png/smile.png";
 import youtube from "../assets/images/png/youtube.png";
 import arrow from "../assets/images/png/arrow.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -123,7 +124,7 @@ const Footer = () => {
                   </h5>
                   <ul className="mb-0 ps-0 footer_ul ">
                     <li>
-                      <a href="#">Why Aleph Zero</a>
+                      <Link to="/">Why Aleph Zero</Link>
                     </li>
                     <li>
                       <a href="#">Roadmap</a>

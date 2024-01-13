@@ -7,7 +7,7 @@ import globe from "../assets/images/png/global_footer.png";
 const footercard = () => {
   return (
     <>
-      <section className="bg_darkgreen ">
+      <section className="bg_darkgreen py-5 mt_-2">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -52,7 +52,7 @@ const footercard = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mt-4 mt-lg-0">
               <div className="d-flex flex-column align-items-center border_style_footer pb-5 pt-3 px-4 h-100">
                 <div className="d-flex justify-content-between">
                   <div className="pt-4 ps-3">

@@ -210,7 +210,8 @@
 /* =====================================Network=========================== */
 .bg_network {
   background: url(./assets/images/png/environment_bg.png),
-    lightgray 64px 0px / 93.333% 100% no-repeat;
+    lightgray 64px 0px / 93.333% 100%;
+    background-repeat: no-repeat;
   background-color: var(--bg-darkgreen);
 }
 .network_bg {

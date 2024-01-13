@@ -13,10 +13,13 @@ import Applications from "./components/Applications";
 import PreLoader from "./components/PreLoader";
 import BackToTop from "./components/BackToTop";
 import Network from "./components/Network";
-import Drivingslider from "./components/Drivingslider"
-import Environment from "./components/Environment"
-import Azercards from "./components/Azercards"
+import Drivingslider from "./components/Drivingslider";
+import Environment from "./components/Environment";
+import Azercards from "./components/Azercards";
+import { Route, Routes } from "react-router-dom";
+import About from "./pages/About";
 function App() {
+  console.log("hello");
   return (
     <>
       <BackToTop />
@@ -33,6 +36,10 @@ function App() {
       <Azercards />
       <Footer />
       <Footercard />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/Featured" element={<Footer />} />
+      </Routes>
     </>
   );
 }

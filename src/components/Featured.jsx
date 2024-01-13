@@ -22,9 +22,9 @@ const Featured = () => {
               type: "loop",
               arrows: false,
               pagination: false,
-              pauseOnHover:true,
               autoScroll: {
                 speed: 1,
+                pauseOnHover:false,
               },
               perPage: 7,
               gap: "4rem",

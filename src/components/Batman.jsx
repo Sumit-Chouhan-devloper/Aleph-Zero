@@ -2,7 +2,7 @@ import React from "react";
 import batman from "../assets/images/png/batman_pic.png";
 const Batman = () => {
   return (
-    <section className="bg_darkgreen">
+    <section className="bg_darkgreen py-5">
       <div className="container">
         <div className="row align-items-center justify-content-start">
           <div className="col-lg-6">
@@ -10,7 +10,7 @@ const Batman = () => {
               <img className="w-100" src={batman} alt="batman" />
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 pt-3 pt-lg-0">
             <div className="d-flex flex-column  justify-content-start position-relative batman_flex">
               <div className="d-flex align-items-center ">
                 <p className="color_white ff_inter mb-0 text-start fw-bold fs_2xl mb-0">
